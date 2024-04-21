@@ -12,17 +12,18 @@ body{
     background-color: var(--bg_color);
 }
 
+.main{
+    margin: auto;
+    width: max-content;
+    background-color: var(--main_color);
+}
 .header{
     padding: 15px;
     background-color: var(--footer_color);
     color: var(--c_white);
 }
 
-.main{
-    margin: auto;
-    width: max-content;
-    background-color: var(--main_color);
-}
+
 
 .banner h1{
     padding: 15px;
@@ -43,8 +44,20 @@ body{
     overflow: hidden;
 }
 
+.banner img{
+    width: 100%;
+}
+
+
 .nav li{
     float: left;
+}
+
+
+
+.nav a:hover{
+    background-color: var(--c_hover);
+    transition: 0.5s;
 }
 
 .nav a{
@@ -56,23 +69,14 @@ body{
     transition: 0.5s;
 }
 
-.nav a:hover{
-    background-color: var(--c_hover);
-    transition: 0.5s;
-}
 
-.banner img{
-    width: 100%;
-}
+
+
 
 .content{
     display: flex;
 }
 
-.box{
-    padding: 50px;
-    
-}
 
 .box{
     width: max-content;    
@@ -81,6 +85,13 @@ body{
     font-size: 15px;
     text-align: justify;
 }
+
+.box{
+    padding: 50px;
+    
+}
+
+
 
 .box h2{
     border-bottom: 2px solid var(--c_border);
